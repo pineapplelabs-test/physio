@@ -1,0 +1,1802 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sairam Physio — Dr. Harika Patnala | Physiotherapy in KR Puram, Bangalore</title>
+  <meta name="description" content="Sairam Physio, led by Dr. Harika Patnala, offers compassionate physiotherapy and rehabilitation in Ayyapanagar, KR Puram, Bangalore. Specialising in paralysis rehab, stroke recovery, chronic pain, and neurological conditions.">
+  <meta name="keywords" content="physiotherapy KR Puram, physiotherapist Bangalore, paralysis rehabilitation, stroke recovery, Dr Harika Patnala, Sairam Physio, neurological physiotherapy">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Sairam Physio — Dr. Harika Patnala">
+  <meta property="og:description" content="Compassionate, personalised physiotherapy and rehabilitation in KR Puram, Bangalore.">
+  <meta property="og:type" content="website">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <style>
+/* ==========================================================================
+   Sairam Physio — Dr. Harika Patnala
+   Premium physiotherapy clinic · KR Puram, Bangalore
+   ========================================================================== */
+
+/* ---------- CSS Custom Properties ---------- */
+:root {
+  /* Colors */
+  --color-bg: #F7F6F3;
+  --color-bg-warm: #EDE8E0;
+  --color-bg-cool: #DDE7EA;
+  --color-bg-sage: #E8EDE5;
+  --color-primary: #2F5D62;
+  --color-primary-light: #3A7A7F;
+  --color-primary-dark: #234A4E;
+  --color-accent: #A8B5A2;
+  --color-accent-light: #C2CCBE;
+  --color-text: #222222;
+  --color-text-light: #555555;
+  --color-text-lighter: #888888;
+  --color-text-inverse: #F7F6F3;
+  --color-border: #D4CFC7;
+  --color-border-light: #E8E4DD;
+  --color-white: #FFFFFF;
+  --color-dark: #1C1C1C;
+  --color-whatsapp: #25D366;
+  --color-whatsapp-dark: #1EBE57;
+
+  /* Typography */
+  --font-heading: 'Plus Jakarta Sans', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 4rem;
+  --space-3xl: 5rem;
+  --space-4xl: 6rem;
+  --space-5xl: 7.5rem;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(34, 34, 34, 0.04);
+  --shadow-md: 0 2px 16px rgba(34, 34, 34, 0.06);
+  --shadow-lg: 0 4px 24px rgba(34, 34, 34, 0.1);
+
+  /* Borders */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 200ms ease;
+  --transition-base: 300ms ease;
+  --transition-slow: 500ms ease;
+  --transition-reveal: 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+  /* Layout */
+  --container-max: 1140px;
+  --nav-height: 76px;
+}
+
+
+/* ---------- Reset & Base ---------- */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+a:hover { color: var(--color-primary-light); }
+
+button {
+  font-family: var(--font-body);
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+ul, ol { list-style: none; }
+
+input, textarea, select {
+  font-family: var(--font-body);
+  font-size: 1rem;
+}
+
+
+/* ---------- Typography ---------- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-text);
+}
+
+h1 {
+  font-size: 3.25rem;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 2.25rem;
+  letter-spacing: -0.015em;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+h4 {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+p {
+  margin-bottom: var(--space-sm);
+  color: var(--color-text-light);
+}
+
+.label {
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: var(--space-sm);
+}
+
+
+/* ---------- Layout ---------- */
+.container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+}
+
+.section {
+  padding: var(--space-5xl) 0;
+}
+
+.section-header {
+  text-align: center;
+  max-width: 580px;
+  margin: 0 auto var(--space-3xl);
+}
+
+.section-header__title {
+  margin-bottom: var(--space-sm);
+}
+
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-family: var(--font-heading);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.875rem 1.75rem;
+  border-radius: var(--radius-sm);
+  transition: all var(--transition-base);
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.btn--primary {
+  background-color: var(--color-primary);
+  color: var(--color-text-inverse);
+}
+
+.btn--primary:hover {
+  background-color: var(--color-primary-light);
+  color: var(--color-text-inverse);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn--secondary {
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 1.5px solid var(--color-primary);
+}
+
+.btn--secondary:hover {
+  background-color: var(--color-primary);
+  color: var(--color-text-inverse);
+  transform: translateY(-1px);
+}
+
+.btn--whatsapp {
+  background-color: var(--color-whatsapp);
+  color: #fff;
+}
+
+.btn--whatsapp:hover {
+  background-color: var(--color-whatsapp-dark);
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(37, 211, 102, 0.3);
+}
+
+.btn--whatsapp svg {
+  flex-shrink: 0;
+}
+
+.btn--lg {
+  font-size: 1rem;
+  padding: 1rem 2rem;
+}
+
+.btn--sm {
+  font-size: 0.875rem;
+  padding: 0.6875rem 1.25rem;
+}
+
+
+/* ==========================================================================
+   NAVIGATION
+   ========================================================================== */
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: var(--nav-height);
+  display: flex;
+  align-items: center;
+  transition: all var(--transition-base);
+}
+
+.nav--solid {
+  background-color: rgba(247, 246, 243, 0.96);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 1px 0 var(--color-border-light);
+}
+
+.nav__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+}
+
+.nav__logo {
+  font-family: var(--font-heading);
+  font-size: 1.3125rem;
+  font-weight: 700;
+  color: var(--color-text);
+  letter-spacing: -0.01em;
+  text-decoration: none;
+}
+
+.nav__logo span {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+}
+
+.nav__link {
+  font-family: var(--font-heading);
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--color-text-light);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+  position: relative;
+}
+
+.nav__link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 1.5px;
+  background-color: var(--color-primary);
+  transition: width var(--transition-base);
+}
+
+.nav__link:hover { color: var(--color-text); }
+.nav__link:hover::after { width: 100%; }
+
+.nav__cta {
+  margin-left: var(--space-xs);
+}
+
+/* Mobile Menu Toggle */
+.nav__toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  padding: 4px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.nav__toggle span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: var(--color-text);
+  transition: all var(--transition-base);
+  border-radius: 1px;
+}
+
+.nav__toggle--active span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+.nav__toggle--active span:nth-child(2) { opacity: 0; }
+.nav__toggle--active span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+
+/* Mobile Menu Panel */
+.nav__mobile {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--color-bg);
+  z-index: 999;
+  transition: right var(--transition-slow);
+  padding: calc(var(--nav-height) + var(--space-xl)) var(--space-lg) var(--space-lg);
+}
+
+.nav__mobile--open { right: 0; }
+
+.nav__mobile-links {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.nav__mobile-link {
+  font-family: var(--font-heading);
+  font-size: 1.375rem;
+  font-weight: 500;
+  color: var(--color-text);
+  text-decoration: none;
+  padding: var(--space-sm) 0;
+  border-bottom: 1px solid var(--color-border-light);
+  transition: color var(--transition-fast);
+}
+
+.nav__mobile-link:hover { color: var(--color-primary); }
+
+
+/* ==========================================================================
+   HERO
+   ========================================================================== */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: var(--nav-height);
+  background-color: var(--color-bg);
+  overflow: hidden;
+}
+
+.hero__inner {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: var(--space-3xl);
+  align-items: center;
+}
+
+.hero__content {
+  padding: var(--space-xl) 0;
+}
+
+.hero__title {
+  margin-bottom: var(--space-md);
+}
+
+.hero__description {
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: var(--color-text-light);
+  margin-bottom: var(--space-xl);
+  max-width: 500px;
+}
+
+.hero__actions {
+  display: flex;
+  gap: var(--space-sm);
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hero__image {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  aspect-ratio: 1;
+  max-height: 560px;
+}
+
+.hero__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* ==========================================================================
+   ABOUT — DR. HARIKA
+   ========================================================================== */
+.about {
+  background-color: var(--color-bg-warm);
+}
+
+.about__inner {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  gap: var(--space-3xl);
+  align-items: start;
+}
+
+.about__portrait {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  aspect-ratio: 1;
+  position: sticky;
+  top: calc(var(--nav-height) + var(--space-lg));
+}
+
+.about__portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about__content {
+  padding: var(--space-sm) 0;
+}
+
+.about__title {
+  margin-bottom: var(--space-md);
+}
+
+.about__text {
+  margin-bottom: var(--space-sm);
+  line-height: 1.8;
+}
+
+/* Specialities */
+.about__specialities {
+  margin-top: var(--space-xl);
+  padding-top: var(--space-xl);
+  border-top: 1px solid rgba(34, 34, 34, 0.08);
+}
+
+.about__specialities-title {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-lighter);
+  margin-bottom: var(--space-sm);
+}
+
+.about__specialities-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.about__specialities-list li {
+  font-family: var(--font-heading);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--color-primary);
+  background-color: rgba(47, 93, 98, 0.08);
+  padding: 0.4375rem 0.875rem;
+  border-radius: var(--radius-full);
+}
+
+
+/* ==========================================================================
+   CONDITIONS TREATED
+   ========================================================================== */
+.conditions {
+  background-color: var(--color-bg);
+}
+
+.conditions__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-lg);
+}
+
+.condition-group {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-md);
+  padding: var(--space-xl);
+  transition: box-shadow var(--transition-base);
+}
+
+.condition-group:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.condition-group__title {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: var(--space-md);
+  padding-bottom: var(--space-sm);
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.condition-group__title svg {
+  color: var(--color-primary);
+  flex-shrink: 0;
+}
+
+.condition-group__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.condition-group__list li {
+  font-size: 0.9375rem;
+  color: var(--color-text-light);
+  padding-left: 1.125rem;
+  position: relative;
+  line-height: 1.5;
+}
+
+.condition-group__list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--color-accent);
+}
+
+
+/* ==========================================================================
+   TREATMENTS PROVIDED
+   ========================================================================== */
+.treatments {
+  background-color: var(--color-bg-sage);
+}
+
+.treatments__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-md) var(--space-xl);
+}
+
+.treatment-item {
+  display: flex;
+  gap: var(--space-sm);
+  align-items: flex-start;
+  padding: var(--space-md) 0;
+  border-bottom: 1px solid rgba(34, 34, 34, 0.06);
+}
+
+.treatment-item__marker {
+  width: 8px;
+  height: 8px;
+  min-width: 8px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  margin-top: 0.375rem;
+}
+
+.treatment-item__name {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  color: var(--color-text);
+}
+
+.treatment-item__desc {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--color-text-light);
+  margin-bottom: 0;
+}
+
+
+/* ==========================================================================
+   WHY SAIRAM
+   ========================================================================== */
+.why {
+  background-color: var(--color-bg);
+}
+
+.why__inner {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: var(--space-3xl);
+  align-items: center;
+}
+
+.why__image {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+}
+
+.why__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.why__title {
+  margin-bottom: var(--space-lg);
+}
+
+.why__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.why__list li {
+  padding-left: var(--space-md);
+  border-left: 3px solid var(--color-accent);
+}
+
+.why__list li strong {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 0.25rem;
+}
+
+.why__list li span {
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  color: var(--color-text-light);
+}
+
+
+/* ==========================================================================
+   TESTIMONIALS
+   ========================================================================== */
+.testimonials {
+  background-color: var(--color-bg-warm);
+}
+
+.testimonials__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-lg);
+}
+
+.testimonial-card {
+  background-color: var(--color-white);
+  border-radius: var(--radius-md);
+  padding: var(--space-xl);
+}
+
+.testimonial-card__stars {
+  display: flex;
+  gap: 2px;
+  margin-bottom: var(--space-sm);
+}
+
+.testimonial-card__stars svg {
+  color: #D4A853;
+}
+
+.testimonial-card__text {
+  font-size: 0.9375rem;
+  line-height: 1.75;
+  color: var(--color-text-light);
+  margin-bottom: var(--space-md);
+}
+
+.testimonial-card__author {
+  padding-top: var(--space-sm);
+  border-top: 1px solid var(--color-border-light);
+}
+
+.testimonial-card__name {
+  font-family: var(--font-heading);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.testimonial-card__detail {
+  font-size: 0.8125rem;
+  color: var(--color-text-lighter);
+  margin-bottom: 0;
+}
+
+
+/* ==========================================================================
+   CONTACT
+   ========================================================================== */
+.contact {
+  background-color: var(--color-bg);
+}
+
+.contact__inner {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact__details-card {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-lg);
+  padding: var(--space-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.contact__detail {
+  display: flex;
+  gap: var(--space-sm);
+  align-items: flex-start;
+}
+
+.contact__detail-icon {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  border-radius: 50%;
+  background-color: rgba(47, 93, 98, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact__detail-icon svg {
+  color: var(--color-primary);
+}
+
+.contact__detail-content h4 {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  margin-bottom: 0.125rem;
+}
+
+.contact__detail-content p {
+  font-size: 0.9375rem;
+  color: var(--color-text-light);
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+.contact__detail-content a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.contact__detail-content a:hover {
+  color: var(--color-primary-light);
+}
+
+.contact__whatsapp-btn {
+  width: 100%;
+  margin-top: var(--space-xs);
+}
+
+
+
+
+/* ==========================================================================
+   FLOATING WHATSAPP BUTTON
+   ========================================================================== */
+.whatsapp-float {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 900;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--color-whatsapp);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.35);
+  transition: all var(--transition-base);
+  text-decoration: none;
+}
+
+.whatsapp-float:hover {
+  background-color: var(--color-whatsapp-dark);
+  color: #fff;
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 6px 28px rgba(37, 211, 102, 0.45);
+}
+
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+.footer {
+  background-color: var(--color-dark);
+  padding: var(--space-3xl) 0 var(--space-lg);
+}
+
+.footer__inner {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 1fr 1fr;
+  gap: var(--space-xl);
+  padding-bottom: var(--space-xl);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.footer__brand p {
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  max-width: 300px;
+  margin-top: var(--space-sm);
+}
+
+.footer__logo {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-text-inverse);
+  text-decoration: none;
+}
+
+.footer__logo span {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+.footer__col h4 {
+  font-family: var(--font-heading);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-md);
+}
+
+.footer__col ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+}
+
+.footer__col a,
+.footer__col li {
+  font-size: 0.9375rem;
+  color: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.footer__col a:hover {
+  color: var(--color-text-inverse);
+}
+
+.footer__bottom {
+  padding-top: var(--space-lg);
+  text-align: center;
+}
+
+.footer__copyright {
+  font-size: 0.8125rem;
+  color: rgba(255, 255, 255, 0.25);
+  margin-bottom: 0;
+}
+
+
+/* ==========================================================================
+   SCROLL REVEAL ANIMATIONS
+   ========================================================================== */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity var(--transition-reveal), transform var(--transition-reveal);
+}
+
+.reveal--visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal--delay-1 { transition-delay: 0.1s; }
+.reveal--delay-2 { transition-delay: 0.2s; }
+.reveal--delay-3 { transition-delay: 0.3s; }
+.reveal--delay-4 { transition-delay: 0.4s; }
+.reveal--delay-5 { transition-delay: 0.5s; }
+
+.reveal-image {
+  opacity: 0;
+  transform: scale(0.97);
+  transition: opacity 700ms ease, transform 700ms ease;
+}
+
+.reveal-image--visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+
+/* ==========================================================================
+   RESPONSIVE — Tablet
+   ========================================================================== */
+@media (max-width: 1024px) {
+  h1 { font-size: 2.625rem; }
+  h2 { font-size: 1.875rem; }
+  .section { padding: var(--space-3xl) 0; }
+
+  /* Nav */
+  .nav__links { display: none; }
+  .nav__toggle { display: flex; }
+  .nav__mobile { display: block; }
+
+  /* Hero */
+  .hero__inner {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+
+  .hero__image {
+    max-height: 380px;
+    aspect-ratio: 3 / 2;
+    margin: 0 auto;
+    max-width: 520px;
+  }
+
+  /* About */
+  .about__inner {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+
+  .about__portrait {
+    position: relative;
+    top: auto;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  /* Conditions */
+  .conditions__grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Treatments */
+  .treatments__grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Why */
+  .why__inner {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+
+  .why__image {
+    max-height: 340px;
+  }
+
+  /* Testimonials */
+  .testimonials__grid {
+    grid-template-columns: 1fr;
+    max-width: 560px;
+    margin: 0 auto;
+  }
+
+
+
+  /* Footer */
+  .footer__inner {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-xl);
+  }
+}
+
+
+/* ==========================================================================
+   RESPONSIVE — Mobile
+   ========================================================================== */
+@media (max-width: 600px) {
+  :root { --nav-height: 64px; }
+  h1 { font-size: 2.25rem; }
+  h2 { font-size: 1.75rem; }
+  h3 { font-size: 1.125rem; }
+  
+  .container { padding: 0 var(--space-md); }
+  .section { padding: var(--space-2xl) 0; }
+  .section-header { margin-bottom: var(--space-xl); }
+
+  .btn { padding: 0.75rem 1.25rem; font-size: 0.875rem; width: 100%; justify-content: center; }
+  .btn--lg { padding: 0.875rem 1.5rem; font-size: 0.9375rem; }
+
+  /* Hero */
+  .hero {
+    min-height: auto;
+    padding-top: calc(var(--nav-height) + var(--space-lg));
+    padding-bottom: var(--space-lg);
+  }
+
+  .hero__content {
+    padding: 0;
+  }
+
+  .hero__inner {
+    gap: var(--space-lg);
+  }
+
+  .hero__actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero__actions .btn {
+    text-align: center;
+  }
+  
+  .hero__image {
+    aspect-ratio: 1;
+    max-height: 320px;
+    margin-top: var(--space-md);
+  }
+
+  /* About */
+  .about__inner {
+    gap: var(--space-xl);
+  }
+
+  .about__portrait {
+    max-width: 240px;
+    margin: 0 auto;
+  }
+
+  .about__specialities-list {
+    gap: 0.375rem;
+  }
+  
+  .about__specialities-list li {
+    font-size: 0.75rem;
+    padding: 0.375rem 0.75rem;
+  }
+
+  /* Conditions */
+  .conditions__grid {
+    gap: var(--space-md);
+  }
+
+  .condition-group {
+    padding: var(--space-lg);
+  }
+
+  /* Treatments */
+  .treatments__grid {
+    gap: var(--space-md);
+  }
+  
+  .treatment-item {
+    padding: var(--space-sm) 0;
+  }
+
+  /* Why Sairam */
+  .why__inner {
+    gap: var(--space-lg);
+  }
+
+  .why__image {
+    max-height: 280px;
+  }
+
+  /* Testimonials */
+  .testimonials__grid {
+    gap: var(--space-md);
+  }
+
+  .testimonial-card {
+    padding: var(--space-lg);
+  }
+
+  /* Contact */
+  .contact__details-card {
+    padding: var(--space-lg);
+    gap: var(--space-md);
+  }
+
+  /* Footer */
+  .footer {
+    padding: var(--space-2xl) 0 var(--space-lg);
+  }
+
+  .footer__inner {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+    padding-bottom: var(--space-lg);
+  }
+  
+  .footer__brand p {
+    margin-top: var(--space-xs);
+  }
+}
+
+  </style>
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="nav" id="main-nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo" aria-label="Sairam Physio — Home">Sairam <span>Physio</span></a>
+
+      <div class="nav__links" id="nav-links">
+        <a href="#about" class="nav__link">About</a>
+        <a href="#conditions" class="nav__link">Conditions</a>
+        <a href="#treatments" class="nav__link">Treatments</a>
+        <a href="#testimonials" class="nav__link">Testimonials</a>
+        <a href="#contact" class="nav__link">Contact</a>
+        <a href="https://wa.me/918792139443" target="_blank" rel="noopener" class="btn btn--whatsapp nav__cta" id="nav-whatsapp-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Chat on WhatsApp
+        </a>
+      </div>
+
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="nav__mobile" id="nav-mobile">
+      <div class="nav__mobile-links">
+        <a href="#about" class="nav__mobile-link">About</a>
+        <a href="#conditions" class="nav__mobile-link">Conditions</a>
+        <a href="#treatments" class="nav__mobile-link">Treatments</a>
+        <a href="#testimonials" class="nav__mobile-link">Testimonials</a>
+        <a href="#contact" class="nav__mobile-link">Contact</a>
+        <a href="https://wa.me/918792139443" target="_blank" rel="noopener" class="btn btn--whatsapp" style="margin-top: 1.5rem;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Chat on WhatsApp
+        </a>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- ===== HERO ===== -->
+  <section class="hero section" id="hero">
+    <div class="container">
+      <div class="hero__inner">
+        <div class="hero__content">
+          <span class="label reveal">Physiotherapy &amp; Rehabilitation · KR Puram, Bangalore</span>
+          <h1 class="hero__title reveal reveal--delay-1">Your recovery,<br>our commitment.</h1>
+          <p class="hero__description reveal reveal--delay-2">Sairam Physio provides patient-focused physiotherapy rooted in empathy, patience, and proper clinical guidance. Led by Dr.&nbsp;Harika Patnala with 8&nbsp;years of hands-on experience in rehabilitation and recovery.</p>
+          <div class="hero__actions reveal reveal--delay-3">
+            <a href="https://wa.me/918792139443" target="_blank" rel="noopener" class="btn btn--whatsapp btn--lg" id="hero-whatsapp-btn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Chat on WhatsApp
+            </a>
+            <a href="#conditions" class="btn btn--secondary" id="hero-conditions-btn">View Conditions We Treat</a>
+          </div>
+        </div>
+
+        <div class="hero__image reveal-image">
+          <img src="images/hero-rehab.png" alt="Dr. Harika Patnala helping a patient with guided rehabilitation exercises at Sairam Physio" width="600" height="600" loading="eager">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== ABOUT — DR. HARIKA ===== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about__inner">
+        <div class="about__portrait reveal-image">
+          <img src="images/dr-harika.png" alt="Dr. Harika Patnala — Physiotherapist at Sairam Physio, KR Puram" width="480" height="480" loading="lazy">
+        </div>
+
+        <div class="about__content">
+          <span class="label reveal">About Dr. Harika Patnala</span>
+          <h2 class="about__title reveal reveal--delay-1">Compassionate care,<br>real results.</h2>
+          <p class="about__text reveal reveal--delay-2">Dr.&nbsp;Harika Patnala has been practising physiotherapy for the past 8&nbsp;years in Ayyapanagar, KR Puram, Bangalore Urban. She treats every patient with patience, empathy, and a deep focus on personalised recovery.</p>
+          <p class="about__text reveal reveal--delay-3">Her clinical expertise spans paralysis rehabilitation, stroke recovery, chronic pain management, neurological rehabilitation, and cerebral palsy therapy for children. She believes that proper guidance, consistent rehabilitation exercises, and genuine compassion are what help patients recover faster and regain their independence.</p>
+
+          <div class="about__specialities reveal reveal--delay-4">
+            <h4 class="about__specialities-title">Areas of Expertise</h4>
+            <ul class="about__specialities-list">
+              <li>Paralysis Rehabilitation</li>
+              <li>Stroke Recovery</li>
+              <li>Neurological Rehab</li>
+              <li>Chronic Pain Care</li>
+              <li>Cerebral Palsy (Children)</li>
+              <li>Balance &amp; Coordination</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== CONDITIONS TREATED ===== -->
+  <section class="conditions section" id="conditions">
+    <div class="container">
+      <div class="section-header">
+        <span class="label reveal">What We Treat</span>
+        <h2 class="section-header__title reveal reveal--delay-1">Conditions treated<br>at Sairam Physio.</h2>
+        <p class="reveal reveal--delay-2">From everyday joint pain to complex neurological conditions — Dr.&nbsp;Harika provides thorough assessment and a recovery plan tailored to each patient.</p>
+      </div>
+
+      <div class="conditions__grid">
+        <!-- Musculoskeletal -->
+        <div class="condition-group reveal reveal--delay-1">
+          <h3 class="condition-group__title">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="22" height="22"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" /></svg>
+            Pain &amp; Musculoskeletal
+          </h3>
+          <ul class="condition-group__list">
+            <li>Neck Pain</li>
+            <li>Back Pain</li>
+            <li>Knee Pain</li>
+            <li>Shoulder Pain</li>
+            <li>Frozen Shoulder</li>
+            <li>Sciatica</li>
+            <li>Disc Problems</li>
+            <li>Cervical Spondylosis</li>
+            <li>Osteoarthritis</li>
+            <li>Radiculopathy</li>
+          </ul>
+        </div>
+
+        <!-- Sports / Overuse -->
+        <div class="condition-group reveal reveal--delay-2">
+          <h3 class="condition-group__title">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="22" height="22"><path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z" /></svg>
+            Overuse &amp; Sports Injuries
+          </h3>
+          <ul class="condition-group__list">
+            <li>Tennis Elbow</li>
+            <li>Golfer's Elbow</li>
+            <li>Heel Pain</li>
+            <li>Plantar Fasciitis</li>
+            <li>ACL Rehabilitation</li>
+          </ul>
+        </div>
+
+        <!-- Neurological -->
+        <div class="condition-group reveal reveal--delay-3">
+          <h3 class="condition-group__title">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="22" height="22"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456Z" /></svg>
+            Neurological Conditions
+          </h3>
+          <ul class="condition-group__list">
+            <li>Paralysis</li>
+            <li>Stroke Rehabilitation</li>
+            <li>Bell's Palsy</li>
+            <li>Parkinson's Disease</li>
+            <li>Cerebral Palsy</li>
+          </ul>
+        </div>
+
+        <!-- Post-Surgical -->
+        <div class="condition-group reveal reveal--delay-4">
+          <h3 class="condition-group__title">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="22" height="22"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" /></svg>
+            Post-Operative Recovery
+          </h3>
+          <ul class="condition-group__list">
+            <li>Post Operative Rehabilitation</li>
+            <li>TKR Rehabilitation</li>
+            <li>THR Rehabilitation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== TREATMENTS PROVIDED ===== -->
+  <section class="treatments section" id="treatments">
+    <div class="container">
+      <div class="section-header">
+        <span class="label reveal">How We Treat</span>
+        <h2 class="section-header__title reveal reveal--delay-1">Treatments provided.</h2>
+        <p class="reveal reveal--delay-2">Each treatment plan is designed around your specific condition, progress, and recovery goals. Dr.&nbsp;Harika combines multiple approaches for the best outcomes.</p>
+      </div>
+
+      <div class="treatments__grid">
+        <div class="treatment-item reveal reveal--delay-1">
+          <div class="treatment-item__marker"></div>
+          <h4 class="treatment-item__name">Exercise Therapy</h4>
+          <p class="treatment-item__desc">Guided therapeutic exercises to restore strength, flexibility, and range of motion.</p>
+        </div>
+
+        <div class="treatment-item reveal reveal--delay-1">
+          <div class="treatment-item__marker"></div>
+          <h4 class="treatment-item__name">Stretching Programs</h4>
+          <p class="treatment-item__desc">Targeted stretching routines to relieve tightness and improve joint mobility.</p>
+        </div>
+
+        <div class="treatment-item reveal reveal--delay-2">
+          <div class="treatment-item__marker"></div>
+          <h4 class="treatment-item__name">Strengthening Programs</h4>
+          <p class="treatment-item__desc">Progressive strengthening to rebuild muscle support around injured or weakened areas.</p>
+        </div>
+
+        <div class="treatment-item reveal reveal--delay-2">
+          <div class="treatment-item__marker"></div>
+          <h4 class="treatment-item__name">Rehabilitation Therapy</h4>
+          <p class="treatment-item__desc">Comprehensive rehab plans for post-surgical, neurological, and chronic conditions.</p>
+        </div>
+
+        <div class="treatment-item reveal reveal--delay-3">
+          <div class="treatment-item__marker"></div>
+          <h4 class="treatment-item__name">Electrotherapy</h4>
+          <p class="treatment-item__desc">Therapeutic electrical stimulation to manage pain and promote tissue healing.</p>
+        </div>
+
+        <div class="treatment-item reveal reveal--delay-3">
+          <div class="treatment-item__marker"></div>
+          <h4 class="treatment-item__name">IFT Therapy</h4>
+          <p class="treatment-item__desc">Interferential therapy for deep pain relief and improved blood circulation.</p>
+        </div>
+
+        <div class="treatment-item reveal reveal--delay-4">
+          <div class="treatment-item__marker"></div>
+          <h4 class="treatment-item__name">TENS Therapy</h4>
+          <p class="treatment-item__desc">Transcutaneous electrical nerve stimulation for safe, non-invasive pain management.</p>
+        </div>
+
+        <div class="treatment-item reveal reveal--delay-4">
+          <div class="treatment-item__marker"></div>
+          <h4 class="treatment-item__name">Ultrasound Therapy</h4>
+          <p class="treatment-item__desc">Deep tissue heating to reduce inflammation, ease stiffness, and speed recovery.</p>
+        </div>
+
+        <div class="treatment-item reveal reveal--delay-5">
+          <div class="treatment-item__marker"></div>
+          <h4 class="treatment-item__name">Posture Correction</h4>
+          <p class="treatment-item__desc">Assessment and training to correct postural imbalances causing pain or discomfort.</p>
+        </div>
+
+        <div class="treatment-item reveal reveal--delay-5">
+          <div class="treatment-item__marker"></div>
+          <h4 class="treatment-item__name">Home Exercise Programs</h4>
+          <p class="treatment-item__desc">Personalised exercise plans you can follow at home to maintain progress between visits.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== WHY SAIRAM ===== -->
+  <section class="why section" id="why">
+    <div class="container">
+      <div class="why__inner">
+        <div class="why__image reveal-image">
+          <img src="images/treatment.png" alt="Hands-on physiotherapy treatment at Sairam Physio" width="560" height="420" loading="lazy">
+        </div>
+        <div class="why__content">
+          <span class="label reveal">Why Sairam Physio</span>
+          <h2 class="why__title reveal reveal--delay-1">Recovery built on<br>trust and care.</h2>
+          <ul class="why__list">
+            <li class="reveal reveal--delay-2">
+              <strong>Personalised attention</strong>
+              <span>Every patient receives an individual treatment plan — no one-size-fits-all approach.</span>
+            </li>
+            <li class="reveal reveal--delay-3">
+              <strong>8 years of clinical experience</strong>
+              <span>Trusted by families across KR Puram and surrounding areas for consistent, reliable results.</span>
+            </li>
+            <li class="reveal reveal--delay-4">
+              <strong>Patient-first approach</strong>
+              <span>Dr.&nbsp;Harika takes the time to listen, explain, and guide you through every stage of recovery.</span>
+            </li>
+            <li class="reveal reveal--delay-5">
+              <strong>Neurological expertise</strong>
+              <span>Specialised rehabilitation for paralysis, stroke, Parkinson's, and cerebral palsy cases.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="label reveal">Patient Experiences</span>
+        <h2 class="section-header__title reveal reveal--delay-1">What patients say.</h2>
+        <p class="reveal reveal--delay-2">Genuine words from people who have trusted Sairam Physio with their recovery.</p>
+      </div>
+
+      <div class="testimonials__grid">
+        <div class="testimonial-card reveal reveal--delay-1">
+          <div class="testimonial-card__stars">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
+          </div>
+          <p class="testimonial-card__text">"My father had a stroke last year and we didn't know where to turn. Dr.&nbsp;Harika was so patient with him — she explained everything step by step and never rushed. After three months of regular sessions, he's walking again with support. We're grateful beyond words."</p>
+          <div class="testimonial-card__author">
+            <span class="testimonial-card__name">Ravi Kumar</span>
+            <p class="testimonial-card__detail">Father's stroke rehabilitation</p>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal reveal--delay-2">
+          <div class="testimonial-card__stars">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
+          </div>
+          <p class="testimonial-card__text">"I had severe back pain for almost a year. Tried multiple doctors. Dr.&nbsp;Harika actually took time to understand where the pain was coming from. Her exercises and therapy sessions made a real difference — I'm pain-free now and know how to maintain it."</p>
+          <div class="testimonial-card__author">
+            <span class="testimonial-card__name">Sunitha Reddy</span>
+            <p class="testimonial-card__detail">Chronic back pain recovery</p>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal reveal--delay-3">
+          <div class="testimonial-card__stars">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
+          </div>
+          <p class="testimonial-card__text">"Our son has cerebral palsy and finding the right therapist was a struggle. Dr.&nbsp;Harika has been wonderful — she connects with him in a way that keeps him comfortable and motivated. His coordination has improved noticeably over the past few months."</p>
+          <div class="testimonial-card__author">
+            <span class="testimonial-card__name">Meena &amp; Prasad</span>
+            <p class="testimonial-card__detail">Child's cerebral palsy therapy</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="label reveal">Visit Us</span>
+        <h2 class="section-header__title reveal reveal--delay-1">Get in touch.</h2>
+        <p class="reveal reveal--delay-2">Reach out directly on WhatsApp, give us a call, or visit the clinic. We're here to help.</p>
+      </div>
+
+      <div class="contact__inner">
+        <!-- Contact Details -->
+        <div class="contact__details-card reveal reveal--delay-1">
+          <div class="contact__detail">
+            <div class="contact__detail-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" /></svg>
+            </div>
+            <div class="contact__detail-content">
+              <h4>Clinic Address</h4>
+              <p>Sairam Physio<br>Ayyapanagar, KR Puram<br>Bangalore Urban, Karnataka</p>
+            </div>
+          </div>
+
+          <div class="contact__detail">
+            <div class="contact__detail-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" /></svg>
+            </div>
+            <div class="contact__detail-content">
+              <h4>Phone</h4>
+              <p><a href="tel:+918792139443">+91 87921 39443</a></p>
+            </div>
+          </div>
+
+          <div class="contact__detail">
+            <div class="contact__detail-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" /></svg>
+            </div>
+            <div class="contact__detail-content">
+              <h4>Working Hours</h4>
+              <p>Monday – Saturday: 9:00 AM – 7:00 PM<br>Sunday: Closed</p>
+            </div>
+          </div>
+
+          <a href="https://wa.me/918792139443" target="_blank" rel="noopener" class="btn btn--whatsapp btn--lg contact__whatsapp-btn">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== FLOATING WHATSAPP ===== -->
+  <a href="https://wa.me/918792139443" target="_blank" rel="noopener" class="whatsapp-float" id="whatsapp-float" aria-label="Chat on WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="#" class="footer__logo">Sairam <span>Physio</span></a>
+          <p>Compassionate, personalised physiotherapy and rehabilitation by Dr.&nbsp;Harika Patnala. Helping patients in KR Puram and across Bangalore recover, heal, and move forward.</p>
+        </div>
+
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Dr. Harika</a></li>
+            <li><a href="#conditions">Conditions Treated</a></li>
+            <li><a href="#treatments">Treatments</a></li>
+            <li><a href="#testimonials">Patient Stories</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Conditions</h4>
+          <ul>
+            <li><a href="#conditions">Paralysis Rehab</a></li>
+            <li><a href="#conditions">Stroke Recovery</a></li>
+            <li><a href="#conditions">Back &amp; Neck Pain</a></li>
+            <li><a href="#conditions">Knee &amp; Shoulder Pain</a></li>
+            <li><a href="#conditions">Post-Surgery Rehab</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Reach Us</h4>
+          <ul>
+            <li><a href="tel:+918792139443">+91 87921 39443</a></li>
+            <li><a href="https://wa.me/918792139443" target="_blank" rel="noopener">WhatsApp</a></li>
+            <li>Ayyapanagar, KR Puram</li>
+            <li>Bangalore Urban</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; 2025 Sairam Physio. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+/* ==========================================================================
+   Sairam Physio — Main JavaScript
+   Scroll reveals, nav behavior, mobile menu, smooth scroll
+   ========================================================================== */
+
+document.addEventListener('DOMContentLoaded', () => {
+  initScrollReveal();
+  initNavScroll();
+  initMobileMenu();
+  initSmoothScroll();
+  initParallax();
+});
+
+
+/* ---------- Scroll Reveal (IntersectionObserver) ---------- */
+function initScrollReveal() {
+  const revealElements = document.querySelectorAll('.reveal, .reveal-image');
+  if (!revealElements.length) return;
+
+  const observerOptions = {
+    root: null,
+    rootMargin: '0px 0px -50px 0px',
+    threshold: 0.12
+  };
+
+  const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        const el = entry.target;
+        if (el.classList.contains('reveal')) {
+          el.classList.add('reveal--visible');
+        } else if (el.classList.contains('reveal-image')) {
+          el.classList.add('reveal-image--visible');
+        }
+        revealObserver.unobserve(el);
+      }
+    });
+  }, observerOptions);
+
+  revealElements.forEach((el) => revealObserver.observe(el));
+}
+
+
+/* ---------- Navigation — Transparent → Solid on Scroll ---------- */
+function initNavScroll() {
+  const nav = document.getElementById('main-nav');
+  if (!nav) return;
+
+  const scrollThreshold = 60;
+
+  function handleNavScroll() {
+    if (window.scrollY > scrollThreshold) {
+      nav.classList.add('nav--solid');
+    } else {
+      nav.classList.remove('nav--solid');
+    }
+  }
+
+  let ticking = false;
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      window.requestAnimationFrame(() => {
+        handleNavScroll();
+        ticking = false;
+      });
+      ticking = true;
+    }
+  }, { passive: true });
+
+  handleNavScroll();
+}
+
+
+/* ---------- Mobile Menu ---------- */
+function initMobileMenu() {
+  const toggle = document.getElementById('nav-toggle');
+  const mobile = document.getElementById('nav-mobile');
+  const mobileLinks = document.querySelectorAll('.nav__mobile-link, .nav__mobile .btn');
+
+  if (!toggle || !mobile) return;
+
+  toggle.addEventListener('click', () => {
+    const isOpen = mobile.classList.contains('nav__mobile--open');
+    if (isOpen) {
+      closeMobileMenu(toggle, mobile);
+    } else {
+      openMobileMenu(toggle, mobile);
+    }
+  });
+
+  mobileLinks.forEach((link) => {
+    link.addEventListener('click', () => closeMobileMenu(toggle, mobile));
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && mobile.classList.contains('nav__mobile--open')) {
+      closeMobileMenu(toggle, mobile);
+    }
+  });
+}
+
+function openMobileMenu(toggle, mobile) {
+  toggle.classList.add('nav__toggle--active');
+  toggle.setAttribute('aria-expanded', 'true');
+  mobile.classList.add('nav__mobile--open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeMobileMenu(toggle, mobile) {
+  toggle.classList.remove('nav__toggle--active');
+  toggle.setAttribute('aria-expanded', 'false');
+  mobile.classList.remove('nav__mobile--open');
+  document.body.style.overflow = '';
+}
+
+
+/* ---------- Smooth Scroll for Anchor Links ---------- */
+function initSmoothScroll() {
+  const anchorLinks = document.querySelectorAll('a[href^="#"]');
+  const navHeight = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--nav-height')) || 76;
+
+  anchorLinks.forEach((link) => {
+    link.addEventListener('click', (e) => {
+      const href = link.getAttribute('href');
+      if (href === '#') return;
+
+      const target = document.querySelector(href);
+      if (!target) return;
+
+      e.preventDefault();
+      const targetPosition = target.getBoundingClientRect().top + window.scrollY - navHeight;
+      window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+    });
+  });
+}
+
+
+/* ---------- Subtle Parallax on Hero Image ---------- */
+function initParallax() {
+  const heroImage = document.querySelector('.hero__image img');
+  if (!heroImage || window.innerWidth < 1024) return;
+
+  const parallaxFactor = 0.1;
+  heroImage.style.transform = 'scale(1.04)';
+  heroImage.style.transition = 'none';
+
+  let ticking = false;
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      window.requestAnimationFrame(() => {
+        const scrollY = window.scrollY;
+        const heroBottom = document.querySelector('.hero').offsetHeight;
+        if (scrollY < heroBottom) {
+          heroImage.style.transform = `translateY(${scrollY * parallaxFactor}px) scale(1.04)`;
+        }
+        ticking = false;
+      });
+      ticking = true;
+    }
+  }, { passive: true });
+}
+
+  </script>
+</body>
+</html>
