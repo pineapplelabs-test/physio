@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sairam Physio Care — Dr. Harika Patnala | Physiotherapy in KR Puram, Bangalore</title>
+  <title>Sairam Physio Care — Dr. Harika Patnala, BPT | Physiotherapy in KR Puram, Bangalore</title>
   <meta name="description" content="Sairam Physio Care, led by Dr. Harika Patnala, offers compassionate physiotherapy and rehabilitation in Ayyapanagar, KR Puram, Bangalore. Specialising in paralysis rehab, stroke recovery, chronic pain, and neurological conditions.">
   <meta name="keywords" content="physiotherapy KR Puram, physiotherapist Bangalore, paralysis rehabilitation, stroke recovery, Dr Harika Patnala, Sairam Physio Care, neurological physiotherapy">
 
@@ -1253,6 +1253,29 @@ p {
   .prev-btn, .next-btn { display: none; } /* Hide buttons on mobile, allow swipe */
 }
 
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: var(--space-lg);
+}
+.carousel-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--color-border-light);
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: all var(--transition-fast);
+}
+.carousel-dot.active {
+  background-color: var(--color-primary);
+  width: 24px;
+  border-radius: 5px;
+}
+
 </style>
 </head>
 <body>
@@ -1305,7 +1328,7 @@ p {
         <div class="hero__content">
           <span class="label reveal">Physiotherapy &amp; Rehabilitation · KR Puram, Bangalore</span>
           <h1 class="hero__title reveal reveal--delay-1">Your recovery,<br>our commitment.</h1>
-          <p class="hero__description reveal reveal--delay-2">Sairam Physio Care provides patient-focused physiotherapy rooted in empathy, patience, and proper clinical guidance. Led by Dr.&nbsp;Harika Patnala with 8&nbsp;years of hands-on experience in rehabilitation and recovery.</p>
+          <p class="hero__description reveal reveal--delay-2">Sairam Physio Care provides patient-focused physiotherapy rooted in empathy, patience, and proper clinical guidance. Led by Dr.&nbsp;Harika Patnala with 10&nbsp;years of hands-on experience in rehabilitation and recovery.</p>
           <div class="hero__actions reveal reveal--delay-3">
             <a href="https://wa.me/918792139443" target="_blank" rel="noopener" class="btn btn--whatsapp btn--lg" id="hero-whatsapp-btn">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
@@ -1332,9 +1355,9 @@ p {
         </div>
 
         <div class="about__content">
-          <span class="label reveal">About Dr. Harika Patnala</span>
+          <span class="label reveal">About Dr. Harika Patnala, BPT (Reg No: 0537032)</span>
           <h2 class="about__title reveal reveal--delay-1">Compassionate care,<br>real results.</h2>
-          <p class="about__text reveal reveal--delay-2">Dr.&nbsp;Harika Patnala has been practising physiotherapy for the past 8&nbsp;years in Ayyapanagar, KR Puram, Bangalore Urban. She treats every patient with patience, empathy, and a deep focus on personalised recovery.</p>
+          <p class="about__text reveal reveal--delay-2">Dr.&nbsp;Harika Patnala has been practising physiotherapy for the past 10&nbsp;years in Ayyapanagar, KR Puram, Bangalore Urban. She treats every patient with patience, empathy, and a deep focus on personalised recovery.</p>
           <p class="about__text reveal reveal--delay-3">Her clinical expertise spans paralysis rehabilitation, stroke recovery, chronic pain management, neurological rehabilitation, and cerebral palsy therapy for children. She believes that proper guidance, consistent rehabilitation exercises, and genuine compassion are what help patients recover faster and regain their independence.</p>
 
           <div class="about__specialities reveal reveal--delay-4">
@@ -1521,7 +1544,7 @@ p {
               <span>Every patient receives an individual treatment plan — no one-size-fits-all approach.</span>
             </li>
             <li class="reveal reveal--delay-3">
-              <strong>8 years of clinical experience</strong>
+              <strong>10 years of clinical experience</strong>
               <span>Trusted by families across KR Puram and surrounding areas for consistent, reliable results.</span>
             </li>
             <li class="reveal reveal--delay-4">
@@ -1595,8 +1618,65 @@ p {
               <p class="testimonial-card__detail">11 months ago</p>
             </div>
           </div>
+          <div class="testimonial-card reveal">
+            <div class="testimonial-card__stars">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-card__text">"It was good improvement to my mother knee replacement for left leg. She is able to walk within 10 days with any support."</p>
+            <div class="testimonial-card__author">
+              <span class="testimonial-card__name">Viswanath NM</span>
+              <p class="testimonial-card__detail">3 weeks ago</p>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal">
+            <div class="testimonial-card__stars">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-card__text">"Dr. Harika helped my brother with his wrist fracture. She is a dedicated physio professional. She is patient and caring with her patients😊"</p>
+            <div class="testimonial-card__author">
+              <span class="testimonial-card__name">Seema Jain</span>
+              <p class="testimonial-card__detail">2 months ago</p>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal">
+            <div class="testimonial-card__stars">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-card__text">"Very friendly and knowledgeable. Very supportive. Healing progressed very well. Value for money."</p>
+            <div class="testimonial-card__author">
+              <span class="testimonial-card__name">Ramesh T</span>
+              <p class="testimonial-card__detail">a week ago</p>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal">
+            <div class="testimonial-card__stars">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-card__text">"Dr. Harika treated my in law for the shoulder pain with so much care and dedication... Much recommend her services..."</p>
+            <div class="testimonial-card__author">
+              <span class="testimonial-card__name">Mownika Susee</span>
+              <p class="testimonial-card__detail">2 months ago</p>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal">
+            <div class="testimonial-card__stars">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-card__text">"Dr. Harika treated my Peri arthritis shoulder with great care and professionalism. She clearly explained the problem and followed a well-planned therapy routine. My pain reduced significantly and shoulder movement improved quickly. Her exercises and guidance helped me regain strength safely. I highly recommend her for any shoulder or physiotherapy issues."</p>
+            <div class="testimonial-card__author">
+              <span class="testimonial-card__name">Priyanka Perumalla</span>
+              <p class="testimonial-card__detail">4 months ago</p>
+            </div>
+          </div>
+
         </div>
         <button class="carousel-btn next-btn" aria-label="Next review">❯</button>
+      </div>
+      <div class="carousel-dots">
+        <button class="carousel-dot active" aria-label="Go to slide 1"></button>
+        <button class="carousel-dot" aria-label="Go to slide 2"></button>
+        <button class="carousel-dot" aria-label="Go to slide 3"></button>
+        <button class="carousel-dot" aria-label="Go to slide 4"></button>
+        <button class="carousel-dot" aria-label="Go to slide 5"></button>
+        <button class="carousel-dot" aria-label="Go to slide 6"></button>
+        <button class="carousel-dot" aria-label="Go to slide 7"></button>
+        <button class="carousel-dot" aria-label="Go to slide 8"></button>
+        <button class="carousel-dot" aria-label="Go to slide 9"></button>
+        <button class="carousel-dot" aria-label="Go to slide 10"></button>
       </div>
     </div>
   </section>
@@ -1878,13 +1958,43 @@ document.addEventListener('DOMContentLoaded', () => {
   const carousel = document.querySelector('.testimonials__carousel');
   const prevBtn = document.querySelector('.prev-btn');
   const nextBtn = document.querySelector('.next-btn');
+  const dots = document.querySelectorAll('.carousel-dot');
 
   if (carousel && prevBtn && nextBtn) {
+    const updateDots = () => {
+      const scrollPos = carousel.scrollLeft;
+      const cardWidth = carousel.querySelector('.testimonial-card').offsetWidth;
+      // Calculate active index considering gap
+      const activeIndex = Math.round(scrollPos / cardWidth);
+      
+      dots.forEach((dot, index) => {
+        if (index === activeIndex) {
+          dot.classList.add('active');
+        } else {
+          dot.classList.remove('active');
+        }
+      });
+    };
+
+    carousel.addEventListener('scroll', updateDots);
+    window.addEventListener('resize', updateDots);
+
     prevBtn.addEventListener('click', () => {
-      carousel.scrollBy({ left: -carousel.offsetWidth, behavior: 'smooth' });
+      const cardWidth = carousel.querySelector('.testimonial-card').offsetWidth;
+      carousel.scrollBy({ left: -cardWidth, behavior: 'smooth' });
     });
+    
     nextBtn.addEventListener('click', () => {
-      carousel.scrollBy({ left: carousel.offsetWidth, behavior: 'smooth' });
+      const cardWidth = carousel.querySelector('.testimonial-card').offsetWidth;
+      carousel.scrollBy({ left: cardWidth, behavior: 'smooth' });
+    });
+
+    dots.forEach((dot, index) => {
+      dot.addEventListener('click', () => {
+        const cardWidth = carousel.querySelector('.testimonial-card').offsetWidth;
+        const gap = parseInt(window.getComputedStyle(carousel).gap) || 0;
+        carousel.scrollTo({ left: (cardWidth + gap) * index, behavior: 'smooth' });
+      });
     });
   }
 });
