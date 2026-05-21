@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sairam Physio — Dr. Harika Patnala | Physiotherapy in KR Puram, Bangalore</title>
-  <meta name="description" content="Sairam Physio, led by Dr. Harika Patnala, offers compassionate physiotherapy and rehabilitation in Ayyapanagar, KR Puram, Bangalore. Specialising in paralysis rehab, stroke recovery, chronic pain, and neurological conditions.">
-  <meta name="keywords" content="physiotherapy KR Puram, physiotherapist Bangalore, paralysis rehabilitation, stroke recovery, Dr Harika Patnala, Sairam Physio, neurological physiotherapy">
+  <title>Sairam Physio Care — Dr. Harika Patnala | Physiotherapy in KR Puram, Bangalore</title>
+  <meta name="description" content="Sairam Physio Care, led by Dr. Harika Patnala, offers compassionate physiotherapy and rehabilitation in Ayyapanagar, KR Puram, Bangalore. Specialising in paralysis rehab, stroke recovery, chronic pain, and neurological conditions.">
+  <meta name="keywords" content="physiotherapy KR Puram, physiotherapist Bangalore, paralysis rehabilitation, stroke recovery, Dr Harika Patnala, Sairam Physio Care, neurological physiotherapy">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Sairam Physio — Dr. Harika Patnala">
+  <meta property="og:title" content="Sairam Physio Care — Dr. Harika Patnala">
   <meta property="og:description" content="Compassionate, personalised physiotherapy and rehabilitation in KR Puram, Bangalore.">
   <meta property="og:type" content="website">
 
@@ -20,7 +20,7 @@
   <!-- Styles -->
   <style>
 /* ==========================================================================
-   Sairam Physio — Dr. Harika Patnala
+   Sairam Physio Care — Dr. Harika Patnala
    Premium physiotherapy clinic · KR Puram, Bangalore
    ========================================================================== */
 
@@ -1182,14 +1182,85 @@ p {
   }
 }
 
-  </style>
+  
+/* Carousel Styles */
+.testimonials__carousel-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: var(--space-xl);
+}
+
+.testimonials__carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  gap: var(--space-lg);
+  padding-bottom: var(--space-md);
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.testimonials__carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.testimonials__carousel .testimonial-card {
+  flex: 0 0 100%;
+  scroll-snap-align: center;
+}
+
+@media (min-width: 768px) {
+  .testimonials__carousel .testimonial-card {
+    flex: 0 0 calc(50% - (var(--space-lg) / 2));
+  }
+}
+
+@media (min-width: 1024px) {
+  .testimonials__carousel .testimonial-card {
+    flex: 0 0 calc(33.333% - (var(--space-lg) * 2 / 3));
+  }
+}
+
+.carousel-btn {
+  background: var(--color-white);
+  border: 1px solid var(--color-border-light);
+  color: var(--color-text);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: all var(--transition-fast);
+  font-size: 1.25rem;
+}
+
+.carousel-btn:hover {
+  background: var(--color-bg-cool);
+}
+
+.prev-btn { left: -24px; }
+.next-btn { right: -24px; }
+
+@media (max-width: 768px) {
+  .prev-btn, .next-btn { display: none; } /* Hide buttons on mobile, allow swipe */
+}
+
+</style>
 </head>
 <body>
 
   <!-- ===== NAVIGATION ===== -->
   <nav class="nav" id="main-nav" role="navigation" aria-label="Main navigation">
     <div class="nav__inner">
-      <a href="#" class="nav__logo" aria-label="Sairam Physio — Home">Sairam <span>Physio</span></a>
+      <a href="#" class="nav__logo" aria-label="Sairam Physio Care — Home">Sairam <span>Physio Care</span></a>
 
       <div class="nav__links" id="nav-links">
         <a href="#about" class="nav__link">About</a>
@@ -1234,7 +1305,7 @@ p {
         <div class="hero__content">
           <span class="label reveal">Physiotherapy &amp; Rehabilitation · KR Puram, Bangalore</span>
           <h1 class="hero__title reveal reveal--delay-1">Your recovery,<br>our commitment.</h1>
-          <p class="hero__description reveal reveal--delay-2">Sairam Physio provides patient-focused physiotherapy rooted in empathy, patience, and proper clinical guidance. Led by Dr.&nbsp;Harika Patnala with 8&nbsp;years of hands-on experience in rehabilitation and recovery.</p>
+          <p class="hero__description reveal reveal--delay-2">Sairam Physio Care provides patient-focused physiotherapy rooted in empathy, patience, and proper clinical guidance. Led by Dr.&nbsp;Harika Patnala with 8&nbsp;years of hands-on experience in rehabilitation and recovery.</p>
           <div class="hero__actions reveal reveal--delay-3">
             <a href="https://wa.me/918792139443" target="_blank" rel="noopener" class="btn btn--whatsapp btn--lg" id="hero-whatsapp-btn">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
@@ -1245,7 +1316,7 @@ p {
         </div>
 
         <div class="hero__image reveal-image">
-          <img src="hero-rehab.png" alt="Dr. Harika Patnala helping a patient with guided rehabilitation exercises at Sairam Physio" width="600" height="600" loading="eager">
+          <img src="hero-rehab.png" alt="Dr. Harika Patnala helping a patient with guided rehabilitation exercises at Sairam Physio Care" width="600" height="600" loading="eager">
         </div>
       </div>
     </div>
@@ -1257,7 +1328,7 @@ p {
     <div class="container">
       <div class="about__inner">
         <div class="about__portrait reveal-image">
-          <img src="dr-harika.png" alt="Dr. Harika Patnala — Physiotherapist at Sairam Physio, KR Puram" width="480" height="480" loading="lazy">
+          <img src="dr-harika.png" alt="Dr. Harika Patnala — Physiotherapist at Sairam Physio Care, KR Puram" width="480" height="480" loading="lazy">
         </div>
 
         <div class="about__content">
@@ -1288,7 +1359,7 @@ p {
     <div class="container">
       <div class="section-header">
         <span class="label reveal">What We Treat</span>
-        <h2 class="section-header__title reveal reveal--delay-1">Conditions treated<br>at Sairam Physio.</h2>
+        <h2 class="section-header__title reveal reveal--delay-1">Conditions treated<br>at Sairam Physio Care.</h2>
         <p class="reveal reveal--delay-2">From everyday joint pain to complex neurological conditions — Dr.&nbsp;Harika provides thorough assessment and a recovery plan tailored to each patient.</p>
       </div>
 
@@ -1439,10 +1510,10 @@ p {
     <div class="container">
       <div class="why__inner">
         <div class="why__image reveal-image">
-          <img src="treatment.png" alt="Hands-on physiotherapy treatment at Sairam Physio" width="560" height="420" loading="lazy">
+          <img src="treatment.png" alt="Hands-on physiotherapy treatment at Sairam Physio Care" width="560" height="420" loading="lazy">
         </div>
         <div class="why__content">
-          <span class="label reveal">Why Sairam Physio</span>
+          <span class="label reveal">Why Sairam Physio Care</span>
           <h2 class="why__title reveal reveal--delay-1">Recovery built on<br>trust and care.</h2>
           <ul class="why__list">
             <li class="reveal reveal--delay-2">
@@ -1474,54 +1545,58 @@ p {
       <div class="section-header">
         <span class="label reveal">Patient Experiences</span>
         <h2 class="section-header__title reveal reveal--delay-1">What patients say.</h2>
-        <p class="reveal reveal--delay-2">Genuine words from people who have trusted Sairam Physio with their recovery.</p>
+        <p class="reveal reveal--delay-2">Genuine words from people who have trusted Sairam Physio Care with their recovery.</p>
       </div>
 
-      <div class="testimonials__grid">
-        <div class="testimonial-card reveal reveal--delay-1">
-          <div class="testimonial-card__stars">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
+      <div class="testimonials__carousel-wrapper">
+        <button class="carousel-btn prev-btn" aria-label="Previous review">❮</button>
+        <div class="testimonials__carousel">
+          <div class="testimonial-card reveal">
+            <div class="testimonial-card__stars">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-card__text">"The physiotherapist is very well trained and have experience she is very polite and nice madam, she has a lot of patience and explains every exercise and the benefit of it. I happened to call her for my mom's post knee cap replacement recuperating procedure, madam did a great job and mom is able to walk very soon without pain."</p>
+            <div class="testimonial-card__author">
+              <span class="testimonial-card__name">Ramu Abhiram</span>
+              <p class="testimonial-card__detail">2 years ago</p>
+            </div>
           </div>
-          <p class="testimonial-card__text">"My father had a stroke last year and we didn't know where to turn. Dr.&nbsp;Harika was so patient with him — she explained everything step by step and never rushed. After three months of regular sessions, he's walking again with support. We're grateful beyond words."</p>
-          <div class="testimonial-card__author">
-            <span class="testimonial-card__name">Ravi Kumar</span>
-            <p class="testimonial-card__detail">Father's stroke rehabilitation</p>
-          </div>
-        </div>
 
-        <div class="testimonial-card reveal reveal--delay-2">
-          <div class="testimonial-card__stars">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
+          <div class="testimonial-card reveal">
+            <div class="testimonial-card__stars">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-card__text">"I was suffering from frozen shoulder and as per the suggestion of physician i came for physiotherapy with Mrs Harika mam . She really helped us and for five sessions my problem is solved and I am really thankful for ur help."</p>
+            <div class="testimonial-card__author">
+              <span class="testimonial-card__name">Apurva N</span>
+              <p class="testimonial-card__detail">a year ago</p>
+            </div>
           </div>
-          <p class="testimonial-card__text">"I had severe back pain for almost a year. Tried multiple doctors. Dr.&nbsp;Harika actually took time to understand where the pain was coming from. Her exercises and therapy sessions made a real difference — I'm pain-free now and know how to maintain it."</p>
-          <div class="testimonial-card__author">
-            <span class="testimonial-card__name">Sunitha Reddy</span>
-            <p class="testimonial-card__detail">Chronic back pain recovery</p>
-          </div>
-        </div>
 
-        <div class="testimonial-card reveal reveal--delay-3">
-          <div class="testimonial-card__stars">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"/></svg>
+          <div class="testimonial-card reveal">
+            <div class="testimonial-card__stars">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-card__text">"Harika madam gave very good service for my knee joint pain and I could get good relief after the treatment. She is very friendly"</p>
+            <div class="testimonial-card__author">
+              <span class="testimonial-card__name">Priya Knvr</span>
+              <p class="testimonial-card__detail">a year ago</p>
+            </div>
           </div>
-          <p class="testimonial-card__text">"Our son has cerebral palsy and finding the right therapist was a struggle. Dr.&nbsp;Harika has been wonderful — she connects with him in a way that keeps him comfortable and motivated. His coordination has improved noticeably over the past few months."</p>
-          <div class="testimonial-card__author">
-            <span class="testimonial-card__name">Meena &amp; Prasad</span>
-            <p class="testimonial-card__detail">Child's cerebral palsy therapy</p>
+
+          <div class="testimonial-card reveal">
+            <div class="testimonial-card__stars">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-card__text">"My father recently underwent physiotherapy sessions for knee replacement surgery of my father with Harika. My father incredibly impressed with the care and guidance. She has good equipments for physiotherapy. Thanks to her dedication and expertise."</p>
+            <div class="testimonial-card__author">
+              <span class="testimonial-card__name">azure cloud</span>
+              <p class="testimonial-card__detail">11 months ago</p>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal">
+            <div class="testimonial-card__stars">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-card__text">"They have provided very well physiocare services to my mother... Doctor Harika used to visit daily and guided for physiotherapy exercises very well. We and my mother felt very happy after seeing her services for the first day itself... Overall it's very satisfying and good service which helped my mother recovery early."</p>
+            <div class="testimonial-card__author">
+              <span class="testimonial-card__name">Amar V</span>
+              <p class="testimonial-card__detail">11 months ago</p>
+            </div>
           </div>
         </div>
+        <button class="carousel-btn next-btn" aria-label="Next review">❯</button>
       </div>
     </div>
   </section>
@@ -1545,7 +1620,7 @@ p {
             </div>
             <div class="contact__detail-content">
               <h4>Clinic Address</h4>
-              <p>Sairam Physio<br>Ayyapanagar, KR Puram<br>Bangalore Urban, Karnataka</p>
+              <p>Sairam Physio Care<br>Ayyapanagar, KR Puram<br>Bangalore Urban, Karnataka</p>
             </div>
           </div>
 
@@ -1590,7 +1665,7 @@ p {
     <div class="container">
       <div class="footer__inner">
         <div class="footer__brand">
-          <a href="#" class="footer__logo">Sairam <span>Physio</span></a>
+          <a href="#" class="footer__logo">Sairam <span>Physio Care</span></a>
           <p>Compassionate, personalised physiotherapy and rehabilitation by Dr.&nbsp;Harika Patnala. Helping patients in KR Puram and across Bangalore recover, heal, and move forward.</p>
         </div>
 
@@ -1628,7 +1703,7 @@ p {
       </div>
 
       <div class="footer__bottom">
-        <p class="footer__copyright">&copy; 2025 Sairam Physio. All rights reserved.</p>
+        <p class="footer__copyright">&copy; 2025 Sairam Physio Care. All rights reserved.</p>
       </div>
     </div>
   </footer>
@@ -1636,7 +1711,7 @@ p {
   <!-- Scripts -->
   <script>
 /* ==========================================================================
-   Sairam Physio — Main JavaScript
+   Sairam Physio Care — Main JavaScript
    Scroll reveals, nav behavior, mobile menu, smooth scroll
    ========================================================================== */
 
@@ -1797,6 +1872,23 @@ function initParallax() {
   }, { passive: true });
 }
 
-  </script>
+  
+// Carousel Logic
+document.addEventListener('DOMContentLoaded', () => {
+  const carousel = document.querySelector('.testimonials__carousel');
+  const prevBtn = document.querySelector('.prev-btn');
+  const nextBtn = document.querySelector('.next-btn');
+
+  if (carousel && prevBtn && nextBtn) {
+    prevBtn.addEventListener('click', () => {
+      carousel.scrollBy({ left: -carousel.offsetWidth, behavior: 'smooth' });
+    });
+    nextBtn.addEventListener('click', () => {
+      carousel.scrollBy({ left: carousel.offsetWidth, behavior: 'smooth' });
+    });
+  }
+});
+
+</script>
 </body>
 </html>
